@@ -1,0 +1,37 @@
+body{
+    min-height: 100vh;
+    background-color: #1E2D3B;
+}
+
+header {
+    height: 70px;
+    background-color: #2E3A46;
+}
+
+header .container-fluid {
+    padding-top: 12.5px;
+}
+
+header img {
+    height: 45px;
+}
+
+.album {
+    width: 200px;
+    height: 360px;
+    background-color: #2E3A46;
+    padding: 20px;
+}
+
+.album img {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+h4{
+    color: white;
+}
+
+.subtitle{
+    color: #808080;
+}
