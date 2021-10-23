@@ -1,4 +1,4 @@
-<?php require __DIR__ . "/partials/list.php" ?>
+<?php require __DIR__ . "/database.php" ?>
 
 <!DOCTYPE html>
 <html lang="en">
