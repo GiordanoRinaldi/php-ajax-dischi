@@ -16,6 +16,10 @@
         <header>
             <div class="container-fluid d-flex justify-content-between">
               <img  src="./img/spotify-logo.png" alt="logo spotify">  
+              <select name="genre" v-model="genereselezionato" @change="filtraCanzoni">
+                  <option value="">Tutti</option>
+                  <option v-for="(genere, index) in generi" :value="genere">{{genere}}</option>
+              </select>
             </div>
         </header>
         <main>
